@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specialization project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR BLOG</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>OUR BLOG</h2>
+                <p>I N V I T A T I O N The entire world continues to navigate through the current pandemic and its increasing impact on business and the wider society. WMF has been hosting regular webinars and webcasts to discuss critical business issues in these times We invite you to join us for a Zoom meeting (also Live on Facebook) with Ms. Smita Mankad in conversation with Ms. Archana Surana. Together they will address the need to Finding your purpose</p>
+                
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="10" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>POST CATEGORIES</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>43</span>
+                </div>
+                <div>
+                    <span>COmputer Certificate</span>
+                    <span>53</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>63</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>45</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Parul University is an embodiment of the essence of cultural heritage and diversity with a blend of 21st century modernity.<br> The University is an amalgamation of 20 faculties and 36 institutes, with a plethora of diploma, undergraduate and post graduate programs in numerous disciplines.</p>
+        <div class="icon">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </section>
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

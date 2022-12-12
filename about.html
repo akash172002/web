@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specialization project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-coloumn">
+                <h1>We are the no1 in West India</h1>
+                <p>to the point of its recognition as Parul University in the year 2015, the University has grown into one of India’s leading academic Institutions. Parul University is an embodiment of the essence of cultural heritage and diversity with a blend of 21st century modernity.<br> The University is an amalgamation of 20 faculties and 36 institutes, with a plethora of diploma, undergraduate and post graduate programs in numerous disciplines. Offering a range of over 250 uniquely structured programs, designed to suit the career prospects of every student aspirant.<br> The 150-acre lush green campus is home to over 35,000 national and international students from 64 countries, making Parul University a culturally global destination. As a mark of excellence, the University has been awarded as Best Private University in Western India by Praxis Media, Best University in Placements by ASSOCHAM and ranked among the Top 50 Private Universities for Leading Innovation Achievements 2020 by ARIIA, Ministry of Human Resource Development.<br> Our Multidisciplinary network of expert faculties, corporate ties, collaborative research and global partnerships provide our students with an enriching University experience, uniquely shaping every student, to shape the world.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-coloumn">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>BCA BBA BCOM BTECH B.Pharma B.Arch</p>
+
+        <div class="row">
+            <div class="course-column">
+                <h3>Intermediate</h3>
+                <p>Ethical Hacking Acounting Managment Data Source Full Stack Dvelopment Course Product Management Course UI/UX Desgin Course</p>
+            </div>
+            <div class="course-column">
+                <h3>Degree</h3>
+                <p>BE/B.Tech- Bachelor of Technology.
+                    B.Arch- Bachelor of Architecture.
+                    BCA- Bachelor of Computer Applications.
+                    B.Sc.- Information Technology.
+                    B.Sc- Nursing.
+                    BPharma- Bachelor of Pharmacy.
+                    B.Sc- Interior Design.
+                    BDS- Bachelor of Dental Surgery</p>
+            </div>
+            <div class="course-column">
+                <h3>Post Graduate</h3>
+                <p>Master in World Literature. Featured. 
+                MA in International Education. Featured. 
+                Master of Urban Design. Read More. 
+                Master of Science in Organisational Leadership. 
+                MASTER OF ARTS (JOURNALISM & MASS COMMUNICATION) 
+                MA in Entrepreneurship for Impact.
+                Master's in Urban Management.
+                2-YEAR M.A IN JOURNALISM & MASS COMMUNICATION</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Parul University is an embodiment of the essence of cultural heritage and diversity with a blend of 21st century modernity.<br> The University is an amalgamation of 20 faculties and 36 institutes, with a plethora of diploma, undergraduate and post graduate programs in numerous disciplines.</p>
+        <div class="icon">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </section>
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
